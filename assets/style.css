@@ -1,0 +1,22 @@
+body {background-image: url(https://media1.giphy.com/media/65MsvXN3KMOQIJOZu2/giphy.gif);
+    background-color: cadetblue;
+    background-repeat: no-repeat;
+    background-size: 1400px 660px;
+    color:lightblue;}
+
+#totalRolls {
+    color: red;
+}
+
+#rollsList {
+    color: yellow;
+}
+
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

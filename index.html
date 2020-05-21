@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Dice Roller</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <input type="number" id="numRolls" name="numRolls" required min="1" max="1" maxlength="1" placeholder="ROLL"
+        inputmode="numeric">
+    <button id="rollButton" type="button" value="">
+   ☠
+    </button>
+    <div class="totalText">TOTAL OF YA ROLLS IS
+        <span id="totalRolls">0
+        </span>
+    </div>
+    <button id="showRolls" type="button">Show Rolls
+    </button>
+    <div class="eachRoll">
+        <h2>The Rolls You Requested..</h2>
+        <ol id="rollsList"></ol>
+        <button id= "resetButton" type="button" value="">
+            RESET
+        </button>
+    </div>
+    <script src="assets/main.js" async defer></script>
+</body>
+
+</html>
